@@ -55,3 +55,8 @@ app.post("/answer/:id", (req, res) => {
 
   res.status(200).send();
 });
+
+// this starts the server
+app.listen(8081, () => {
+  console.log("ear hustling on port 8081");
+});
